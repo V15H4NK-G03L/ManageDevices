@@ -1,0 +1,79 @@
+﻿.logo {
+    text-align:center;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    margin: 0 5px;
+    color:black;
+}
+
+.nav-right a:first-child {
+    color: red;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.section {
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+
+.device {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.delete-container {
+    flex-shrink: 0;
+}
+
+.page-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.page-selector button {
+    padding: 5px 10px;
+    background-color: #B5B5B5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.page-selector span {
+    margin: 0 3px;
+}
+
+.footer {
+    padding-left: 20px;
+}
